@@ -1,5 +1,5 @@
 #!/bin/bash
-for SUFFIX in $(seq 0 9)
+for SUFFIX in `./numbers.sh`
 do
 	# copy current machine's key to the target laptop
 	ssh-copy-id laptop@debian-shrimp-"$SUFFIX"
