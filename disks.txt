@@ -1,0 +1,48 @@
+2: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        33G  5.9G   26G  19% /
+3: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G   17G   33G  34% /
+4: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        70G  5.7G   61G   9% /
+5: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        70G  5.7G   61G   9% /
+6: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        33G  5.6G   26G  18% /
+7: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G  5.6G   43G  12% /
+8: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G  5.6G   44G  12% /
+9: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G  5.6G   44G  12% /
+10: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G  5.2G   44G  11% /
+11: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G  5.6G   44G  12% /
+12: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G  5.6G   44G  12% /
+13: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G  5.6G   44G  12% /
+14: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G  5.3G   44G  11% /
+15: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G  5.3G   44G  11% /
+16: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        24G  5.4G   18G  24% /
+17: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       7.7G  5.4G  2.0G  74% /
+18: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        24G  5.4G   18G  24% /
+19: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        24G  5.4G   18G  24% /
+20: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        70G  5.4G   61G   9% /
+21: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        24G  5.4G   18G  24% /
+22: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        52G  5.4G   44G  11% /
+23: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        24G  5.4G   18G  24% /
+24: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        24G  5.4G   18G  24% /
+25: Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        70G  5.4G   61G   9% /
