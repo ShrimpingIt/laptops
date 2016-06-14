@@ -1,7 +1,7 @@
 #!/bin/bash
 PASSWORD=$1
 NOW=`date +%s`
-for SUFFIX in $(seq 0 9)
+for SUFFIX in `./numbers.sh`
 do
 	echo -n "${SUFFIX}: "
 	# initialise time servers
