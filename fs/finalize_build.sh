@@ -2,7 +2,7 @@
 # Update host name
 read -p "Specify laptop number:" HOST_NUM; sudo sh -c "echo 'debian-shrimp-${HOST_NUM}' > /etc/hostname"
 
-# Resize last partition to fill all available space
+# Resize last partition to fill all available space (assumes first partition is swap?)
 PART_DEV=sda
 PART_NUM=2
 PART_START=$(sudo parted /dev/${PART_DEV} -ms unit s p | grep "^${PART_NUM}" | cut -f 2 -d:)
