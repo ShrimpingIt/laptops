@@ -5,7 +5,7 @@ read -p "Specify laptop number:" HOST_NUM; sudo sh -c "echo 'debian-shrimp-${HOS
 # Resize last partition to fill all available space (assumes first partition is swap?)
 PART_DEV=sda
 PART_NUM=2
-PART_START=$(sudo parted /dev/${PART_DEV} -ms unit s p | grep "^${PART_NUM}" | cut -f 2 -d:)
+PART_START=$(sudo parted /dev/${PART_DEV} -ms unit s print | grep "^${PART_NUM}" | awk 'BEGIN {FS="[^0-9]?:"} {print $2;}')
 
 fdisk /dev/${PART_DEV} <<EOF
 p
