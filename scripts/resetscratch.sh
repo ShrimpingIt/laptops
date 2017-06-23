@@ -6,7 +6,7 @@ do
 	export SKETCH=""
 	echo -n "${SUFFIX}: "
 	# shutdown running arduino instances
-	ssh laptop@debian-shrimp-"$SUFFIX" "killall squeakvm;" 
+	ssh learner@debian-shrimp-"$SUFFIX" "killall squeakvm;" 
 	# launch scratch piano
-	ssh laptop@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 nohup xdg-open ~/Desktop/projects/utilities/keyboard/shrimpkey_piano.sb > /dev/null &" & 	
+	ssh learner@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 nohup xdg-open ~/Desktop/projects/utilities/keyboard/shrimpkey_piano.sb > /dev/null &" & 	
 done

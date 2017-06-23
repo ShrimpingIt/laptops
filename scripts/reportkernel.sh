@@ -2,5 +2,5 @@
 for SUFFIX in `./numbers.sh`
 do
 	echo -n "${SUFFIX}: "
-	ssh laptop@debian-shrimp-"$SUFFIX" "uname -a"
+	ssh learner@debian-shrimp-"$SUFFIX" "uname -a"
 done

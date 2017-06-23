@@ -6,7 +6,7 @@ do
 	export SKETCH=""
 	echo -n "${SUFFIX}: "
 	# shutdown running arduino instances
-	ssh laptop@debian-shrimp-"$SUFFIX" "killall java;" 
+	ssh learner@debian-shrimp-"$SUFFIX" "killall java;" 
 	# launch a new version of arduino
-	ssh laptop@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 nohup ~/Desktop/arduino-1.6.3/arduino ${SKETCH} > /dev/null &" & 
+	ssh learner@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 nohup ~/Desktop/arduino-1.6.3/arduino ${SKETCH} > /dev/null &" & 
 done

@@ -9,19 +9,19 @@ TOFULLSCREEN=postman
 for SUFFIX in `./numbers.sh`
 do
 	echo -n "${SUFFIX}: "
-	ssh laptop@debian-shrimp-"$SUFFIX" "killall ${APP}" & 
+	ssh learner@debian-shrimp-"$SUFFIX" "killall ${APP}" & 
 	# suffers from race condition - sometimes iceweasel, sometimes chromium
-	ssh -t -t laptop@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 chromium-browser ${URL} > /dev/null &" & 
-#	ssh -t -t laptop@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 nohup ${APP} ${URL} > /dev/null &" &
+	ssh -t -t learner@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 chromium-browser ${URL} > /dev/null &" & 
+#	ssh -t -t learner@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 nohup ${APP} ${URL} > /dev/null &" &
 done
 
 #for SUFFIX in `./numbers.sh`
 #do
-#	ssh laptop@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 nohup $APP $URL > /dev/null" &
+#	ssh learner@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 nohup $APP $URL > /dev/null" &
 #done
 
 # SEND FULLSCREEN KEYS
 #for SUFFIX in `./numbers.sh`
 #do
-#	ssh laptop@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 xdotool search ${TOFULLSCREEN} windowactivate --sync key F11" &
+#	ssh learner@debian-shrimp-"$SUFFIX" "DISPLAY=:0.0 xdotool search ${TOFULLSCREEN} windowactivate --sync key F11" &
 #done
