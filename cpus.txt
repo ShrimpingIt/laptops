@@ -9,16 +9,14 @@
 10: model name	: Intel(R) Core(TM) Solo CPU     U1400  @ 1.20GHz
 11: model name	: Genuine Intel(R) CPU           U2500  @ 1.20GHz
 12: model name	: Intel(R) Core(TM) Solo CPU     U1400  @ 1.20GHz
-13: model name	: Intel(R) Core(TM)2 CPU         U7600  @ 1.20GHz
+13: model name	: Genuine Intel(R) CPU           U2500  @ 1.20GHz
 14: model name	: Intel(R) Core(TM)2 CPU         U7600  @ 1.20GHz
 15: model name	: Intel(R) Core(TM)2 CPU         U7600  @ 1.20GHz
 16: model name	: Genuine Intel(R) CPU           U2500  @ 1.20GHz
 17: model name	: Genuine Intel(R) CPU           U2500  @ 1.20GHz
 18: model name	: Genuine Intel(R) CPU           U2500  @ 1.20GHz
 19: model name	: Genuine Intel(R) CPU           U2500  @ 1.20GHz
-20: model name	: Intel(R) Core(TM)2 Duo CPU     U7700  @ 1.33GHz
+20: model name	: Intel(R) Core(TM)2 CPU         U7600  @ 1.20GHz
 21: model name	: Genuine Intel(R) CPU           U2500  @ 1.20GHz
 22: model name	: Genuine Intel(R) CPU           U2500  @ 1.20GHz
-23: model name	: Genuine Intel(R) CPU           U2500  @ 1.20GHz
-24: model name	: Genuine Intel(R) CPU           U2500  @ 1.20GHz
-25: model name	: Intel(R) Core(TM)2 Duo CPU     U7700  @ 1.33GHz
+23: model name	: Intel(R) Core(TM)2 CPU         U7600  @ 1.20GHz
